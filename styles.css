@@ -13,6 +13,7 @@
     margin: auto;
 }
 header{
+    margin-bottom: 6px;
     width: 100%;
     height: 81px;
     padding: 10px;
@@ -22,7 +23,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: white;
-    box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
 }
 
 header .logo{
@@ -42,7 +43,7 @@ header .opmenu{
 header .opmenu a{
     flex-grow: 1;
     margin-right: 25px;
-    font-family: 'Quicksand bold', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     color: #015C9D;
     
@@ -54,4 +55,79 @@ header .opmenu a#login{
     border: 1px solid #7CCFFC;
     border-radius: 25px;
 
+}
+.section{
+    width: 1920px;
+    height: 954px;
+}
+#section1{
+    background: white;
+}
+#section1 #sect1div1{
+    height: 604px;
+}
+#section1 #sect1div2{
+    background: rgba(39, 199, 255, 1);
+    display: flex;
+    flex-flow: row wrap;
+    /*text-align: center;*/
+    justify-content: space-between;
+    align-items: center;
+    line-height: 400px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 59px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    
+}
+#section1 #sect1div2 .parrafo p{
+    /*position: absolute;*/
+    display: flex;
+    flex-flow: row wrap;
+    height: 350px;
+    background: #27C7FF;
+    letter-spacing: 3px;
+    margin-left: 192px;
+}
+#section1 #sect1div2 .imagen img{
+    /*position: absolute;*/
+    display: flex;
+    flex-flow: row wrap;
+    width: 120px;
+    height: 168px;
+    margin-right: 192px;
+    background: #27C7FF;
+    
+    
+}
+
+#section2{
+    background: rgb(57, 156, 173);
+}
+#section3{
+    background: #27C7FF;
+}
+#section4{
+    background: rgb(17, 245, 233);
+}
+#section5{
+    background: #27C7FF;
+}
+#section6{
+    background: rgb(39, 255, 147);
+}
+#section7{
+    background: #27C7FF;
+}
+#section8{
+    background: rgb(84, 173, 96);
+}
+#section9{
+    background: #27C7FF;
+}
+#section10{
+    background: rgb(173, 185, 149);
+}
+#section11{
+    background: #27C7FF;
 }
