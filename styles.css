@@ -13,12 +13,13 @@
     justify-content: center;
     /*margin: auto;*/
 }
-header{
+.header{
     margin-bottom: 6px;
     width: 100%;
     min-height: 81px;
     padding: 10px;
     position: fixed;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +29,7 @@ header{
     box-shadow: 0px 3px 6px rgba(0,0,0, 0.16);
 }
 
-header .logo{
+.header .logo{
     display: flex;
     margin-left: 37px;
     justify-items: center;
@@ -63,25 +64,123 @@ header #menu a#login{
 }
 
 .section{
-    width: 1920px;
-    min-height: 954px;
+    width: 100%;
+    min-height: 1035px;
 }
 #section1{
     background: white;
 }
 #section1 #sect1div1{
-    height: 604px;
+    position: relative;
+    height: 715px;
 }
+.absolute{
+    position: absolute;
+}
+#section1 #sect1div1 .div1logo{
+    width: 279px;
+    height: 391px;
+    top: 177px;
+    left: 189px;
+}
+.woman{
+    width: 87px;
+    height: 208px;
+    top: 419px;
+    left:125px;
+}
+.man{
+    width: 86px;
+    height: 198px;
+    top: 498px;
+    left: 420px;
+}
+.man_cel{
+    width: 103px;
+    height: 252px;
+    top: 252px;
+    left: 468px;
+}
+.text{
+    width: 398px;
+    height: 72px;
+    top: 285.99px;
+    left: 599.98px;
+}
+.fondo_esq{
+    top: 0px;
+    right: 0px;
+}
+.boton{
+    top: 557px;
+    left: 659px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color:white;
+}
+.man_glass{
+    top: 98.7px;
+    left: 1003.9px;
+}
+.graphic{
+    top: 270px;
+    left: 1098.7px;
+}
+.plant2{
+    top: 407.69px;
+    left: 1199.29px;
+}
+.woman2{
+    top: 183.22px;
+    left: 1243.17px;
+}
+.woman_pc{
+    top: 428.65px;
+    left: 1309.45px;
+}
+.plant{
+    top: 331.12px;
+    left: 1330.77px;
+}
+.man_hand{
+    top: 229.06px;
+    left: 1378.88px;
+}
+.pc{
+    top: 358.81px;
+    left: 1471.02px;
+}
+.woman_book{
+    top: 285.99px;
+    left: 1541.12px;
+}
+.man_talks1{
+    top: 432.97px;
+    left: 1615.37px;
+}
+.man_talks2{
+    top: 386.03px;
+    left: 1734.33px;
+}
+#section1 #sect1div1 p{ 
+    letter-spacing: 3px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    top: 376px;
+    left: 589px;
+    line-height: 50px;
+} 
 #section1 #sect1div2{
     background: rgba(39, 199, 255, 1);
     display: flex;
     flex-flow: row wrap;
-    min-height: 350px;;
+    min-height: 320px;;
     /*text-align: center;*/
     justify-content: center;
     align-content: center;
-    
-    /*line-height: 400px;*/ 
 }
 
 #section1 #sect1div2 .parrafo{
